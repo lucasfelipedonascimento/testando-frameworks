@@ -1,0 +1,45 @@
+.bola1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: $primaryColor;
+    display: flex;
+    align-items: center;
+
+    a {
+        color: $link-color;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 5px;
+       
+        &:hover {
+            background-color: $link-hover;
+        }
+    }
+
+    &:hover {
+        background-color: $hover-red;
+    }
+}
+
+.bola2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: $secondaryColor;
+
+    &:hover {
+        background-color: $hover-blue;
+    }
+}
+
+.bola3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: $thirty-color;
+
+    &:hover {
+        background-color: $hover-green;
+    }
+}
